@@ -1,0 +1,62 @@
+2018-09-12 11:47:59,711  INFO MyMsgController:24 - >>>>>>>>>>>>>>>>>id的值为：1008
+2018-09-12 11:47:59,714  INFO MyMsgController:25 - >>>>>>>>>>>>>>>>>testMsg的值为：haha
+2018-09-12 11:47:59,714  INFO MyMsgServiceImp:18 - >>>>>>>>>>>>>>>>>>>>>>>>>class java.lang.Long
+2018-09-12 11:47:59,714  INFO MyMsgServiceImp:19 - >>>>>>>>>>>>>>>>>>>>>>>>id:class java.lang.Long
+2018-09-12 11:49:40,263  INFO MyMsgController:24 - >>>>>>>>>>>>>>>>>id的值为：1008
+2018-09-12 11:49:40,266  INFO MyMsgController:25 - >>>>>>>>>>>>>>>>>testMsg的值为：haha
+2018-09-12 11:49:40,266  INFO MyMsgServiceImp:18 - >>>>>>>>>>>>>>>>>>>>>>>>>class java.lang.Long
+2018-09-12 11:49:40,267  INFO MyMsgServiceImp:19 - >>>>>>>>>>>>>>>>>>>>>>>>id:class java.lang.Long
+2018-09-12 11:49:40,740  INFO MyMsgServiceImp:18 - >>>>>>>>>>>>>>>>>>>>>>>>>class java.lang.Long
+2018-09-12 11:49:40,741  INFO MyMsgServiceImp:19 - >>>>>>>>>>>>>>>>>>>>>>>>id:class java.lang.Long
+2018-09-12 11:50:36,453  INFO MyMsgController:24 - >>>>>>>>>>>>>>>>>id的值为：1008
+2018-09-12 11:50:36,453  INFO MyMsgController:25 - >>>>>>>>>>>>>>>>>testMsg的值为：haha
+2018-09-12 11:50:36,454  INFO MyMsgServiceImp:18 - >>>>>>>>>>>>>>>>>>>>>>>>>class java.lang.Long
+2018-09-12 11:50:36,457  INFO MyMsgServiceImp:19 - >>>>>>>>>>>>>>>>>>>>>>>>id:class java.lang.Long
+2018-09-12 11:50:36,459  INFO MyMsgServiceImp:18 - >>>>>>>>>>>>>>>>>>>>>>>>>class java.lang.Long
+2018-09-12 11:50:36,460  INFO MyMsgServiceImp:19 - >>>>>>>>>>>>>>>>>>>>>>>>id:class java.lang.Long
+2018-09-12 11:50:44,898  INFO MyMsgController:24 - >>>>>>>>>>>>>>>>>id的值为：1008
+2018-09-12 11:50:44,898  INFO MyMsgController:25 - >>>>>>>>>>>>>>>>>testMsg的值为：haha
+2018-09-12 11:50:44,899  INFO MyMsgServiceImp:18 - >>>>>>>>>>>>>>>>>>>>>>>>>class java.lang.Long
+2018-09-12 11:50:44,900  INFO MyMsgServiceImp:19 - >>>>>>>>>>>>>>>>>>>>>>>>id:class java.lang.Long
+2018-09-12 11:50:44,904  INFO MyMsgServiceImp:18 - >>>>>>>>>>>>>>>>>>>>>>>>>class java.lang.Long
+2018-09-12 11:50:44,905  INFO MyMsgServiceImp:19 - >>>>>>>>>>>>>>>>>>>>>>>>id:class java.lang.Long
+2018-09-12 11:52:32,939  INFO MyMsgController:24 - >>>>>>>>>>>>>>>>>id的值为：1008
+2018-09-12 11:52:32,941  INFO MyMsgController:25 - >>>>>>>>>>>>>>>>>testMsg的值为：haha
+2018-09-12 11:52:32,942  INFO MyMsgServiceImp:18 - >>>>>>>>>>>>>>>>>>>>>>>>>class java.lang.Long
+2018-09-12 11:52:32,942  INFO MyMsgServiceImp:19 - >>>>>>>>>>>>>>>>>>>>>>>>id:class java.lang.Long
+2018-09-12 11:52:40,681  INFO MyMsgController:24 - >>>>>>>>>>>>>>>>>id的值为：1008
+2018-09-12 11:52:40,682  INFO MyMsgController:25 - >>>>>>>>>>>>>>>>>testMsg的值为：haha
+2018-09-12 11:52:40,682  INFO MyMsgServiceImp:18 - >>>>>>>>>>>>>>>>>>>>>>>>>class java.lang.Long
+2018-09-12 11:52:40,685  INFO MyMsgServiceImp:19 - >>>>>>>>>>>>>>>>>>>>>>>>id:class java.lang.Long
+2018-09-12 11:52:48,339  INFO MyMsgController:24 - >>>>>>>>>>>>>>>>>id的值为：1008
+2018-09-12 11:52:48,340  INFO MyMsgController:25 - >>>>>>>>>>>>>>>>>testMsg的值为：haha
+2018-09-12 11:52:48,340  INFO MyMsgServiceImp:18 - >>>>>>>>>>>>>>>>>>>>>>>>>class java.lang.Long
+2018-09-12 11:52:48,341  INFO MyMsgServiceImp:19 - >>>>>>>>>>>>>>>>>>>>>>>>id:class java.lang.Long
+2018-09-12 11:52:48,564  INFO MyMsgController:24 - >>>>>>>>>>>>>>>>>id的值为：1008
+2018-09-12 11:52:48,565  INFO MyMsgController:25 - >>>>>>>>>>>>>>>>>testMsg的值为：haha
+2018-09-12 11:52:48,565  INFO MyMsgServiceImp:18 - >>>>>>>>>>>>>>>>>>>>>>>>>class java.lang.Long
+2018-09-12 11:52:48,565  INFO MyMsgServiceImp:19 - >>>>>>>>>>>>>>>>>>>>>>>>id:class java.lang.Long
+2018-09-12 11:52:48,923  INFO MyMsgController:24 - >>>>>>>>>>>>>>>>>id的值为：1008
+2018-09-12 11:52:48,924  INFO MyMsgController:25 - >>>>>>>>>>>>>>>>>testMsg的值为：haha
+2018-09-12 11:52:48,924  INFO MyMsgServiceImp:18 - >>>>>>>>>>>>>>>>>>>>>>>>>class java.lang.Long
+2018-09-12 11:52:48,924  INFO MyMsgServiceImp:19 - >>>>>>>>>>>>>>>>>>>>>>>>id:class java.lang.Long
+2018-09-12 11:52:49,262  INFO MyMsgController:24 - >>>>>>>>>>>>>>>>>id的值为：1008
+2018-09-12 11:52:49,262  INFO MyMsgController:25 - >>>>>>>>>>>>>>>>>testMsg的值为：haha
+2018-09-12 11:52:49,262  INFO MyMsgServiceImp:18 - >>>>>>>>>>>>>>>>>>>>>>>>>class java.lang.Long
+2018-09-12 11:52:49,263  INFO MyMsgServiceImp:19 - >>>>>>>>>>>>>>>>>>>>>>>>id:class java.lang.Long
+2018-09-12 11:52:49,449  INFO MyMsgController:24 - >>>>>>>>>>>>>>>>>id的值为：1008
+2018-09-12 11:52:49,449  INFO MyMsgController:25 - >>>>>>>>>>>>>>>>>testMsg的值为：haha
+2018-09-12 11:52:49,450  INFO MyMsgServiceImp:18 - >>>>>>>>>>>>>>>>>>>>>>>>>class java.lang.Long
+2018-09-12 11:52:49,451  INFO MyMsgServiceImp:19 - >>>>>>>>>>>>>>>>>>>>>>>>id:class java.lang.Long
+2018-09-12 11:52:54,566  INFO MyMsgController:24 - >>>>>>>>>>>>>>>>>id的值为：1008
+2018-09-12 11:52:54,566  INFO MyMsgController:25 - >>>>>>>>>>>>>>>>>testMsg的值为：haha
+2018-09-12 11:52:54,567  INFO MyMsgServiceImp:18 - >>>>>>>>>>>>>>>>>>>>>>>>>class java.lang.Long
+2018-09-12 11:52:54,567  INFO MyMsgServiceImp:19 - >>>>>>>>>>>>>>>>>>>>>>>>id:class java.lang.Long
+2018-09-12 11:52:54,796  INFO MyMsgController:24 - >>>>>>>>>>>>>>>>>id的值为：1008
+2018-09-12 11:52:54,796  INFO MyMsgController:25 - >>>>>>>>>>>>>>>>>testMsg的值为：haha
+2018-09-12 11:52:54,797  INFO MyMsgServiceImp:18 - >>>>>>>>>>>>>>>>>>>>>>>>>class java.lang.Long
+2018-09-12 11:52:54,798  INFO MyMsgServiceImp:19 - >>>>>>>>>>>>>>>>>>>>>>>>id:class java.lang.Long
+2018-09-12 11:52:54,990  INFO MyMsgController:24 - >>>>>>>>>>>>>>>>>id的值为：1008
+2018-09-12 11:52:54,990  INFO MyMsgController:25 - >>>>>>>>>>>>>>>>>testMsg的值为：haha
+2018-09-12 11:52:54,991  INFO MyMsgServiceImp:18 - >>>>>>>>>>>>>>>>>>>>>>>>>class java.lang.Long
+2018-09-12 11:52:54,991  INFO MyMsgServiceImp:19 - >>>>>>>>>>>>>>>>>>>>>>>>id:class java.lang.Long

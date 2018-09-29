@@ -1,0 +1,12 @@
+druid:
+配置文件
+启动后通过地址：http://127.0.0.1:8080/druid/api.html 访问   主要通过配置实现
+
+参考：
+https://github.com/alibaba/druid/tree/master/druid-spring-boot-starter
+
+https://blog.csdn.net/zsj777/article/details/80946220
+
+https://blog.csdn.net/huaidandaidai1/article/details/80960573
+
+

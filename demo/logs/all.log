@@ -1,0 +1,20 @@
+2018-09-11 16:47:05,486  INFO MyMsgServiceImp:22 - >>>>>>>>>>>>>The class of Long type：class java.lang.Long
+2018-09-11 16:47:05,488  INFO MyMsgServiceImp:23 - >>>>>>>>>>>>>The class of id:class java.lang.Long
+2018-09-11 16:47:05,489  INFO MyMsgServiceImp:25 - >>>>>>>>>>>>>>>>id的类型是Long类型的！
+2018-09-11 16:57:33,941  INFO MyMsgServiceImp:22 - >>>>>>>>>>>>>The class of Long type：class java.lang.Long
+2018-09-11 16:57:33,945  INFO MyMsgServiceImp:23 - >>>>>>>>>>>>>The class of id:class java.lang.Long
+2018-09-11 16:57:33,947  INFO MyMsgServiceImp:25 - >>>>>>>>>>>>>>>>id的类型是Long类型的！
+2018-09-11 16:57:46,917  INFO MyMsgServiceImp:22 - >>>>>>>>>>>>>The class of Long type：class java.lang.Long
+2018-09-11 16:57:46,917  INFO MyMsgServiceImp:23 - >>>>>>>>>>>>>The class of id:class java.lang.Long
+2018-09-11 16:57:46,918  INFO MyMsgServiceImp:25 - >>>>>>>>>>>>>>>>id的类型是Long类型的！
+2018-09-11 17:09:36,772  INFO DruidMsgController:26 - >>>>>>>>>>>..[]
+2018-09-11 17:11:34,721  INFO DruidMsgController:26 - >>>>>>>>>>>..[]
+2018-09-11 17:15:10,492 ERROR MyMsgController:28 - >>>>>>>>>>>>>>>>>>>>.ces时间1536657310492
+2018-09-11 17:16:35,105 ERROR MyMsgController:28 - >>>>>>>>>>>>>>>>>>>>.ces时间1536657395105
+2018-09-11 17:17:07,696 ERROR MyMsgController:28 - >>>>>>>>>>>>>>>>>>>>.ces时间1536657427696
+2018-09-11 17:19:51,589  INFO MyMsgServiceImp:22 - >>>>>>>>>>>>>The class of Long type：class java.lang.Long
+2018-09-11 17:19:51,590  INFO MyMsgServiceImp:23 - >>>>>>>>>>>>>The class of id:class java.lang.Long
+2018-09-11 17:19:51,593  INFO MyMsgServiceImp:25 - >>>>>>>>>>>>>>>>id的类型是Long类型的！
+2018-09-11 17:20:07,773  INFO MyMsgServiceImp:22 - >>>>>>>>>>>>>The class of Long type：class java.lang.Long
+2018-09-11 17:20:07,773  INFO MyMsgServiceImp:23 - >>>>>>>>>>>>>The class of id:class java.lang.Long
+2018-09-11 17:20:07,774  INFO MyMsgServiceImp:25 - >>>>>>>>>>>>>>>>id的类型是Long类型的！

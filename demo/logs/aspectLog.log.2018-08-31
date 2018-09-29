@@ -1,0 +1,4 @@
+{"当前操作用户":"","日志记录时间":"2018-30-31 05:08:49","目标类":"com.aop.log4j.controller.AuthorityController@106e56b","目标方法":"showMsg","请求参数":[{"map":{"earth":"earth","pluto":"pluto"},"user":{"userId":1,"userName":"test","userPwd":"test123"},"msg":"SuperMan","strings":["123","wangsm"],"ints":[123,231,345,45]}],"请求路径":"/authority/showMsg"}
+{"当前操作用户":"","日志记录时间":"2018-31-31 05:08:03","目标类":"com.aop.log4j.user.service.imp.UserServiceImp@1d4a6a9","目标方法":"showMsg","请求参数":[{"userId":0,"userName":"test","userPwd":"test123"},"SuperMan",{"earth":"earth","pluto":"pluto"},["123","wangsm"],[123,231,345,45]],"请求路径":"/authority/showMsg"}
+>>>>>>>>>>>>>>>>>访问showMsg方法的权限;组-admin，单个权限-showMsg，标志-and校验开始>>>>>>>>>>
+>>>>>>>>>>>>>>>>>>>>>>没有登录或登录失效，请登录！>>>>>>>>>>>>>>>>

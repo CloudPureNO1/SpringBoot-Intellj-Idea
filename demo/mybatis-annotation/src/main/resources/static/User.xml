@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.springboot.learnning.mybatis.mapper.UserMapper">
+    <resultMap id="baseResult" type="com.springboot.learnning.mybatis.model.User">
+        <id property="userId" column="user_id"></id>
+        <result property="userName" column="user_name"></result>
+        <result property="userPasswd" column="user_passwd"></result>
+        <result property="userAddr"  column="user_addr"></result>
+    </resultMap>
+    <sql id="baseColumnList">
+        user_id,user_name,user_passwd,user_addr
+    </sql>
+
+    <insert id="insert" parameterType="com.springboot.learnning.mybatis.model.User">
+        insert into t_user(
+        <include refid="baseColumnList"></include>
+        ) values(#{usesrId},#{userName},#{userPasswd},#{userAddr})
+    </insert>
+    
+    <update id="update" parameterType="com.springboot.learnning.mybatis.model.User">
+        update t_user set user_name=#{userName},user_passwd=#{userPasswd},user_addr=#{userAddr}
+        where user_id=#{userId}
+    </update>
+
+    <delete id="delete">
+        delete from t_user where user_id=#{userId}
+    </delete>
+
+    <select id="selectById" resultMap="baseResult">
+        select 
+        <include refid="baseColumnList"></include>
+        from t_user wher user_id=#{userId}
+    </select>
+
+    <select id="selectAll" resultMap="baseResult">
+        select * from t_user
+    </select>
+
+<!--
+  这时我们可以使用where动态语句来解决。这个“where”标签会知道如果它包含的标签中有返回值的话，它就插入一个‘where’。
+  此外，如果标签返回的内容是以AND 或OR 开头的，则它会剔除掉。
+  -->
+    <select id="selectByProperties" resultMap="baseResult" parameterType="com.springboot.learnning.mybatis.model.User">
+        select 
+        *
+        from t_user
+        <where>
+            <if test="userId!=null and userId!=''">
+                user_id=#{userId}
+            </if>
+            <if test="userName!=null and userName!=''">
+                and user_name=#{userName}
+            </if>
+            <if test="userPasswd!=null and userPasswd!=''">
+                and user_passwd=#{userPasswd}
+            </if>
+            <if test="userAddr!=null and userAddr!=''">
+                and user_addr=#{userAddr}
+            </if>
+        </where>
+    </select>
+
+
+<!-- trim 使用   -->
+    <select id="selectByConditions" parameterType="com.springboot.learnning.mybatis.model.User" resultMap="baseResult">
+        select <include refid="baseColumnList"></include>
+        from t_user
+        <trim prefix="where"   prefixOverrides="and |or">
+            <if test="userId!=null and userId!=''">
+                user_id=#{userId}
+            </if>
+            <if test="userName!=null and userName.length()>0">
+                and user_name=#{userName}
+            </if>
+            <if test="userPasswd!=null and userPasswd!=''">
+                and user_passwd=#{userPasswd}
+            </if>
+            <if test="userAddr!=null and userAddr.length>0">
+                and user_addr=#{userAddr}
+            </if>
+        </trim>
+    </select>
+
+    <update id="updateUser">
+      update t_user
+      <trim prefix="set" suffixOverrides=",">
+         <if test="userId!=null and userId!=''">
+             user_id=#{userId},
+         </if>
+          <if test="userName!=null and userName!=''">
+              user_name=#{userName},
+          </if>
+          <if test="userPasswd!=null and userPasswd!=''">
+              user_passwd=#{userPasswd},
+          </if>
+          <if test="userAddr!=null and userAddr!=''">
+              user_addr=#{userAddr}
+          </if>
+          where user_id=#{userId}
+      </trim>
+    </update>
+
+    <!--
+    1、collection  参数类型：list ,array ,map
+        I、如果是单参数：可以用list 和 array
+
+        II、如果是多参数：用map
+            例如：select * from t_user where user_name=#{userName} and user_id in
+                    <foreach collection="ids" item="userId" open="("  separator="," close=")" index="index">
+                        #{userId}
+                    </foreach>
+             解释：此处传入的是两个参数：一个userName,一个ids（这里的ids 可以是List或者Array）
+
+    2、item 集合中每一个参数迭代时的名称
+    3、open 以什么开始 in 语句中，以“（” 开始
+    4、separator 以什么作为分割符号，in 语句中，用“，”分割
+    5.close 以什么结束，in语句中用“）”结束
+    6、index 每个迭代值，在集合中的位置（索引）
+    -->
+<select id="selectUserByList" resultMap="baseResult" parameterType="java.util.List">
+    select * from t_user where user_id IN
+    <foreach collection="list" item="userId" open="("  separator="," close=")" index="index">
+        #{userId}
+    </foreach>
+</select>
+
+
+    <select id="selectUserByArray" resultMap="baseResult" >
+        select  * fromt_user where user_id in 
+        <foreach collection="array" index="index" open="(" separator="," close=")" item="userId">
+            #{userId}
+        </foreach>
+    </select>
+
+    <select id="selectUserByMap" resultMap="baseResult" parameterType="java.util.Map">
+        select * from t_user where user_addr=#{userAddr} and user_id in
+        <foreach collection="ids" item="userId" open="(" separator="," close=")" index="i">
+            #{userId}
+        </foreach>
+    </select>
+
+    <insert id="insertForBatch" parameterType="java.util.List">
+        <selectKey keyColumn="goods_id" keyProperty="goodsId" order="BEFORE" resultType="Long">
+            <!-- 编写查询主键的SQL语句 -->
+            <!-- BEFORE：-->
+            SELECT squ_goods.nextval FROM dual
+            <!-- AFTER:
+                SELECT seq_deptno.currval FROM dual
+            -->
+        </selectKey>
+        insert into my_goods(goods_id,goods_name,goods_price,order_id)
+        values
+        <foreach collection="goodsList" item="goodsBean" open="（" separator="," close=")" index="i">
+            #{goodsBean.goodsId},
+            #{goodsBean.goodsName},
+            #{goodsBean.goodsPrice},
+            #{goodsBean.orderId}
+        </foreach>
+    </insert>
+
+
+</mapper>

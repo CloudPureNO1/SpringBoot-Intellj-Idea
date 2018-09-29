@@ -1,0 +1,12 @@
+package com.datasource.druid;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class DatasourceDruidApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(DatasourceDruidApplication.class, args);
+    }
+}

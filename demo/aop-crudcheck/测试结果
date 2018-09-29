@@ -1,0 +1,47 @@
+controller 单元测试结果：
+>>>>>>>>>Pluto>>>>>有权限执行/访问>>>>>>>>insert>>>>>>>>
+******************执行 insertUser********************
+>>>>>>>>>Pluto>>>>>有权限执行/访问>>>>>>>>delete>>>>>>>>
+******************执行 deleteUser********************
+>>>>>>>>>Pluto>>>>>有权限执行/访问>>>>>>>>update>>>>>>>>
+******************执行 updateUser********************
+>>>>>>>>>Pluto>>>>>有权限执行/访问>>>>>>>>select>>>>>>>>
+******************执行 getUsers********************
+>>>>>>>>>Pluto>>>>>没有权限执行/访问>>>>>>>>execAll>>>>>>>>
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /user/testAll
+       Parameters = {}
+          Headers = {Content-Type=[application/json;charset=UTF-8]}
+             Body = null
+    Session Attrs = {userName=Pluto}
+
+Handler:
+             Type = com.aop.annotaion.crudcheck.controller.UserCotroller
+           Method = public java.lang.String com.aop.annotaion.crudcheck.controller.UserCotroller.testAll()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = {Content-Type=[text/plain;charset=UTF-8], Content-Length=[0]}
+     Content type = text/plain;charset=UTF-8
+             Body = {"resultCode":"HasAuthority","resultMsg":"有权限执行/访问"}{"resultCode":"HasAuthority","resultMsg":"有权限执行/访问"}{"resultCode":"HasAuthority","resultMsg":"有权限执行/访问"}{"resultCode":"HasAuthority","resultMsg":"有权限执行/访问"}{"resultCode":"HasNotAuthority","resultMsg":"没有权限执行/访问"}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []

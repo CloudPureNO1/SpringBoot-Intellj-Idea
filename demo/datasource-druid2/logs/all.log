@@ -1,0 +1,4 @@
+2018-09-11 17:24:35,980  INFO MyMsgServiceImp:22 - >>>>>>>>>>>>>The class of Long type：class java.lang.Long
+2018-09-11 17:24:35,983  INFO MyMsgServiceImp:23 - >>>>>>>>>>>>>The class of id:class java.lang.Long
+2018-09-11 17:24:35,985  INFO MyMsgServiceImp:25 - >>>>>>>>>>>>>>>>id的类型是Long类型的！
+2018-09-11 17:25:19,330 ERROR MyMsgController:28 - >>>>>>>>>>>>>>>>>>>>.ces时间1536657919330

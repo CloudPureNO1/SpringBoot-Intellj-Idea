@@ -1,0 +1,3 @@
+2018-08-22 13:58:02,016  INFO UserTest:17 ---- 输出info
+2018-08-22 13:58:02,020 DEBUG UserTest:18 ---- 输出debug
+2018-08-22 13:58:02,020 ERROR UserTest:19 ---- 输出error

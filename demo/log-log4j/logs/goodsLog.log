@@ -1,0 +1,3 @@
+2018-08-22 13:58:32,284  INFO GoodsTestTest:13 ---- >>>>>>>>>>>>>Goods INFO 级别日志
+2018-08-22 13:58:32,288 DEBUG GoodsTestTest:14 ---- >>>>>>>>>>>>Goods Debug 级别日志
+2018-08-22 13:58:32,288 ERROR GoodsTestTest:15 ---- >>>>>>>>>>>>>>>>Goods Error 级别日志

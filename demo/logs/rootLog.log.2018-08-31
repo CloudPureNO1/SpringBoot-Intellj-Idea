@@ -1,0 +1,124 @@
+2018-08-31 17:17:13,318  INFO AopLog4jApplication:50 - Starting AopLog4jApplication on 王森明 with PID 11648 (F:\Spring-Boot\Intellij-Idea-projects\demo\aop-log4j\target\classes started by CloudPure in F:\Spring-Boot\Intellij-Idea-projects\demo)
+2018-08-31 17:17:13,322  INFO AopLog4jApplication:662 - No active profile set, falling back to default profiles: default
+2018-08-31 17:17:13,403  INFO AnnotationConfigServletWebServerApplicationContext:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6f3f28: startup date [Fri Aug 31 17:17:13 CST 2018]; root of context hierarchy
+2018-08-31 17:17:16,307  INFO TomcatWebServer:91 - Tomcat initialized with port(s): 8080 (http)
+2018-08-31 17:17:16,879  INFO ContextLoader:285 - Root WebApplicationContext: initialization completed in 3481 ms
+2018-08-31 17:17:16,993  INFO ServletRegistrationBean:187 - Servlet dispatcherServlet mapped to [/]
+2018-08-31 17:17:16,998  INFO FilterRegistrationBean:245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-31 17:17:16,999  INFO FilterRegistrationBean:245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-31 17:17:16,999  INFO FilterRegistrationBean:245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-31 17:17:16,999  INFO FilterRegistrationBean:245 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-31 17:17:17,542  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-31 17:17:17,943  INFO RequestMappingHandlerAdapter:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6f3f28: startup date [Fri Aug 31 17:17:13 CST 2018]; root of context hierarchy
+2018-08-31 17:17:18,034  INFO RequestMappingHandlerMapping:547 - Mapped "{[/authority/showMsg],methods=[GET]}" onto public java.lang.String com.aop.log4j.controller.AuthorityController.showMsg(java.util.Map<java.lang.String, java.lang.Object>)
+2018-08-31 17:17:18,038  INFO RequestMappingHandlerMapping:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-31 17:17:18,039  INFO RequestMappingHandlerMapping:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-31 17:17:18,101  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-31 17:17:18,102  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-31 17:17:18,496  INFO AnnotationMBeanExporter:433 - Registering beans for JMX exposure on startup
+2018-08-31 17:17:18,656  INFO TomcatWebServer:206 - Tomcat started on port(s): 8080 (http) with context path ''
+2018-08-31 17:17:18,662  INFO AopLog4jApplication:59 - Started AopLog4jApplication in 6.312 seconds (JVM running for 7.906)
+2018-08-31 17:17:18,665  INFO TestLog:11 - >>>>>>>>>>>>>>...test Console log》》》》》》》》》》》
+2018-08-31 17:17:39,734  INFO DispatcherServlet:494 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-31 17:17:39,764  INFO DispatcherServlet:509 - FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
+2018-08-31 17:17:39,954  WARN DefaultHandlerExceptionResolver:424 - Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.aop.log4j.controller.AuthorityController.showMsg(java.util.Map<java.lang.String, java.lang.Object>)
+2018-08-31 17:18:14,486  WARN DefaultHandlerExceptionResolver:424 - Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.aop.log4j.controller.AuthorityController.showMsg(java.util.Map<java.lang.String, java.lang.Object>)
+2018-08-31 17:18:51,833  WARN DefaultHandlerExceptionResolver:424 - Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.aop.log4j.controller.AuthorityController.showMsg(java.util.Map<java.lang.String, java.lang.Object>)
+2018-08-31 17:19:58,198  INFO AopLog4jApplication:50 - Starting AopLog4jApplication on 王森明 with PID 7520 (F:\Spring-Boot\Intellij-Idea-projects\demo\aop-log4j\target\classes started by CloudPure in F:\Spring-Boot\Intellij-Idea-projects\demo)
+2018-08-31 17:19:58,201  INFO AopLog4jApplication:662 - No active profile set, falling back to default profiles: default
+2018-08-31 17:19:58,330  INFO AnnotationConfigServletWebServerApplicationContext:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@134fff9: startup date [Fri Aug 31 17:19:58 CST 2018]; root of context hierarchy
+2018-08-31 17:20:00,376  INFO TomcatWebServer:91 - Tomcat initialized with port(s): 8080 (http)
+2018-08-31 17:20:00,541  INFO ContextLoader:285 - Root WebApplicationContext: initialization completed in 2218 ms
+2018-08-31 17:20:00,651  INFO ServletRegistrationBean:187 - Servlet dispatcherServlet mapped to [/]
+2018-08-31 17:20:00,657  INFO FilterRegistrationBean:245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-31 17:20:00,658  INFO FilterRegistrationBean:245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-31 17:20:00,658  INFO FilterRegistrationBean:245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-31 17:20:00,659  INFO FilterRegistrationBean:245 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-31 17:20:01,007  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-31 17:20:01,376  INFO RequestMappingHandlerAdapter:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@134fff9: startup date [Fri Aug 31 17:19:58 CST 2018]; root of context hierarchy
+2018-08-31 17:20:01,471  INFO RequestMappingHandlerMapping:547 - Mapped "{[/authority/showMsg],methods=[GET]}" onto public java.lang.String com.aop.log4j.controller.AuthorityController.showMsg(java.util.Map<java.lang.String, java.lang.Object>)
+2018-08-31 17:20:01,476  INFO RequestMappingHandlerMapping:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-31 17:20:01,477  INFO RequestMappingHandlerMapping:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-31 17:20:01,533  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-31 17:20:01,534  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-31 17:20:01,812  INFO AnnotationMBeanExporter:433 - Registering beans for JMX exposure on startup
+2018-08-31 17:20:01,858  INFO TomcatWebServer:206 - Tomcat started on port(s): 8080 (http) with context path ''
+2018-08-31 17:20:01,862  INFO AopLog4jApplication:59 - Started AopLog4jApplication in 4.307 seconds (JVM running for 5.698)
+2018-08-31 17:20:01,865  INFO TestLog:11 - >>>>>>>>>>>>>>...test Console log》》》》》》》》》》》
+2018-08-31 17:23:15,663  INFO AopLog4jApplication:50 - Starting AopLog4jApplication on 王森明 with PID 11384 (F:\Spring-Boot\Intellij-Idea-projects\demo\aop-log4j\target\classes started by CloudPure in F:\Spring-Boot\Intellij-Idea-projects\demo)
+2018-08-31 17:23:15,667  INFO AopLog4jApplication:662 - No active profile set, falling back to default profiles: default
+2018-08-31 17:23:15,758  INFO AnnotationConfigServletWebServerApplicationContext:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1be37eb: startup date [Fri Aug 31 17:23:15 CST 2018]; root of context hierarchy
+2018-08-31 17:23:17,716  INFO TomcatWebServer:91 - Tomcat initialized with port(s): 8080 (http)
+2018-08-31 17:23:17,908  INFO ContextLoader:285 - Root WebApplicationContext: initialization completed in 2155 ms
+2018-08-31 17:23:18,022  INFO ServletRegistrationBean:187 - Servlet dispatcherServlet mapped to [/]
+2018-08-31 17:23:18,028  INFO FilterRegistrationBean:245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-31 17:23:18,028  INFO FilterRegistrationBean:245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-31 17:23:18,028  INFO FilterRegistrationBean:245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-31 17:23:18,028  INFO FilterRegistrationBean:245 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-31 17:23:18,321  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-31 17:23:18,682  INFO RequestMappingHandlerAdapter:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1be37eb: startup date [Fri Aug 31 17:23:15 CST 2018]; root of context hierarchy
+2018-08-31 17:23:18,772  INFO RequestMappingHandlerMapping:547 - Mapped "{[/authority/showMsg],methods=[GET]}" onto public java.lang.String com.aop.log4j.controller.AuthorityController.showMsg(java.util.Map<java.lang.String, java.lang.Object>)
+2018-08-31 17:23:18,776  INFO RequestMappingHandlerMapping:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-31 17:23:18,779  INFO RequestMappingHandlerMapping:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-31 17:23:18,839  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-31 17:23:18,841  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-31 17:23:19,132  INFO AnnotationMBeanExporter:433 - Registering beans for JMX exposure on startup
+2018-08-31 17:23:19,185  INFO TomcatWebServer:206 - Tomcat started on port(s): 8080 (http) with context path ''
+2018-08-31 17:23:19,189  INFO AopLog4jApplication:59 - Started AopLog4jApplication in 4.17 seconds (JVM running for 5.35)
+2018-08-31 17:23:19,192  INFO TestLog:11 - >>>>>>>>>>>>>>...test Console log》》》》》》》》》》》
+2018-08-31 17:23:38,719  INFO DispatcherServlet:494 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-31 17:23:38,741  INFO DispatcherServlet:509 - FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+2018-08-31 17:23:38,758  WARN PageNotFound:255 - Request method 'POST' not supported
+2018-08-31 17:24:32,233  WARN DefaultHandlerExceptionResolver:424 - Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.aop.log4j.controller.AuthorityController.showMsg(java.util.Map<java.lang.String, java.lang.Object>)
+2018-08-31 17:25:17,519  INFO AopLog4jApplication:50 - Starting AopLog4jApplication on 王森明 with PID 9532 (F:\Spring-Boot\Intellij-Idea-projects\demo\aop-log4j\target\classes started by CloudPure in F:\Spring-Boot\Intellij-Idea-projects\demo)
+2018-08-31 17:25:17,523  INFO AopLog4jApplication:662 - No active profile set, falling back to default profiles: default
+2018-08-31 17:25:17,624  INFO AnnotationConfigServletWebServerApplicationContext:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@16ac46a: startup date [Fri Aug 31 17:25:17 CST 2018]; root of context hierarchy
+2018-08-31 17:25:19,774  INFO TomcatWebServer:91 - Tomcat initialized with port(s): 8080 (http)
+2018-08-31 17:25:19,943  INFO ContextLoader:285 - Root WebApplicationContext: initialization completed in 2328 ms
+2018-08-31 17:25:20,100  INFO ServletRegistrationBean:187 - Servlet dispatcherServlet mapped to [/]
+2018-08-31 17:25:20,105  INFO FilterRegistrationBean:245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-31 17:25:20,105  INFO FilterRegistrationBean:245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-31 17:25:20,105  INFO FilterRegistrationBean:245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-31 17:25:20,106  INFO FilterRegistrationBean:245 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-31 17:25:20,394  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-31 17:25:20,782  INFO RequestMappingHandlerAdapter:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@16ac46a: startup date [Fri Aug 31 17:25:17 CST 2018]; root of context hierarchy
+2018-08-31 17:25:20,880  INFO RequestMappingHandlerMapping:547 - Mapped "{[/authority/showMsg],methods=[POST]}" onto public java.lang.String com.aop.log4j.controller.AuthorityController.showMsg(java.util.Map<java.lang.String, java.lang.Object>)
+2018-08-31 17:25:20,887  INFO RequestMappingHandlerMapping:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-31 17:25:20,890  INFO RequestMappingHandlerMapping:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-31 17:25:20,983  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-31 17:25:20,984  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-31 17:25:21,300  INFO AnnotationMBeanExporter:433 - Registering beans for JMX exposure on startup
+2018-08-31 17:25:21,362  INFO TomcatWebServer:206 - Tomcat started on port(s): 8080 (http) with context path ''
+2018-08-31 17:25:21,368  INFO AopLog4jApplication:59 - Started AopLog4jApplication in 4.602 seconds (JVM running for 5.856)
+2018-08-31 17:25:21,372  INFO TestLog:11 - >>>>>>>>>>>>>>...test Console log》》》》》》》》》》》
+2018-08-31 17:30:21,956  INFO AopLog4jApplication:50 - Starting AopLog4jApplication on 王森明 with PID 10428 (F:\Spring-Boot\Intellij-Idea-projects\demo\aop-log4j\target\classes started by CloudPure in F:\Spring-Boot\Intellij-Idea-projects\demo)
+2018-08-31 17:30:21,960  INFO AopLog4jApplication:662 - No active profile set, falling back to default profiles: default
+2018-08-31 17:30:22,057  INFO AnnotationConfigServletWebServerApplicationContext:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5bd62: startup date [Fri Aug 31 17:30:22 CST 2018]; root of context hierarchy
+2018-08-31 17:30:24,062  INFO TomcatWebServer:91 - Tomcat initialized with port(s): 8080 (http)
+2018-08-31 17:30:24,256  INFO ContextLoader:285 - Root WebApplicationContext: initialization completed in 2204 ms
+2018-08-31 17:30:24,367  INFO ServletRegistrationBean:187 - Servlet dispatcherServlet mapped to [/]
+2018-08-31 17:30:24,373  INFO FilterRegistrationBean:245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-31 17:30:24,374  INFO FilterRegistrationBean:245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-31 17:30:24,374  INFO FilterRegistrationBean:245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-31 17:30:24,374  INFO FilterRegistrationBean:245 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-31 17:30:24,658  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-31 17:30:25,036  INFO RequestMappingHandlerAdapter:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5bd62: startup date [Fri Aug 31 17:30:22 CST 2018]; root of context hierarchy
+2018-08-31 17:30:25,129  INFO RequestMappingHandlerMapping:547 - Mapped "{[/authority/showMsg],methods=[POST]}" onto public java.lang.String com.aop.log4j.controller.AuthorityController.showMsg(java.util.Map<java.lang.String, java.lang.Object>)
+2018-08-31 17:30:25,134  INFO RequestMappingHandlerMapping:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-31 17:30:25,135  INFO RequestMappingHandlerMapping:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-31 17:30:25,200  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-31 17:30:25,201  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-31 17:30:25,498  INFO AnnotationMBeanExporter:433 - Registering beans for JMX exposure on startup
+2018-08-31 17:30:25,549  INFO TomcatWebServer:206 - Tomcat started on port(s): 8080 (http) with context path ''
+2018-08-31 17:30:25,554  INFO AopLog4jApplication:59 - Started AopLog4jApplication in 4.217 seconds (JVM running for 5.454)
+2018-08-31 17:30:25,556  INFO TestLog:11 - >>>>>>>>>>>>>>...test Console log》》》》》》》》》》》
+2018-08-31 17:30:27,432  INFO DispatcherServlet:494 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-31 17:30:27,458  INFO DispatcherServlet:509 - FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+2018-08-31 17:30:49,330 DEBUG OperateLogAspect:51 - {"当前操作用户":"","日志记录时间":"2018-30-31 05:08:49","目标类":"com.aop.log4j.controller.AuthorityController@106e56b","目标方法":"showMsg","请求参数":[{"map":{"earth":"earth","pluto":"pluto"},"user":{"userId":1,"userName":"test","userPwd":"test123"},"msg":"SuperMan","strings":["123","wangsm"],"ints":[123,231,345,45]}],"请求路径":"/authority/showMsg"}
+2018-08-31 17:30:49,336  INFO MethodRuntimeAnnotation:23 - >>>>>>>>>>>>>>>>>>>>>>>>方法运行时间aop环绕调用开始>>>>>>>>>>>>>>>>>>>>
+2018-08-31 17:31:03,268 DEBUG OperateLogAspect:51 - {"当前操作用户":"","日志记录时间":"2018-31-31 05:08:03","目标类":"com.aop.log4j.user.service.imp.UserServiceImp@1d4a6a9","目标方法":"showMsg","请求参数":[{"userId":0,"userName":"test","userPwd":"test123"},"SuperMan",{"earth":"earth","pluto":"pluto"},["123","wangsm"],[123,231,345,45]],"请求路径":"/authority/showMsg"}
+2018-08-31 17:31:03,270  INFO MethodRuntimeAnnotation:23 - >>>>>>>>>>>>>>>>>>>>>>>>方法运行时间aop环绕调用开始>>>>>>>>>>>>>>>>>>>>
+2018-08-31 17:31:03,271  INFO AuthorityOnMethodAspect:34 - >>>>>>>>>>>>>>>>>访问showMsg方法的权限;组-admin，单个权限-showMsg，标志-and校验开始>>>>>>>>>>
+2018-08-31 17:31:03,272 ERROR AuthorityOnMethodAspect:48 - >>>>>>>>>>>>>>>>>>>>>>没有登录或登录失效，请登录！>>>>>>>>>>>>>>>>
+2018-08-31 17:31:03,281  INFO MethodRuntimeAnnotation:31 - >>>>>>>> >方法运行时间aop环绕调用结束>>>>showMsg方法运行时间：10毫秒
+2018-08-31 17:31:11,478  INFO MethodRuntimeAnnotation:31 - >>>>>>>> >方法运行时间aop环绕调用结束>>>>showMsg方法运行时间：22140毫秒
